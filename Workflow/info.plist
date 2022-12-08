@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.alfredapp.amazonsuggest</string>
+	<string>com.alfredapp.vitor.amazonsuggest</string>
 	<key>connections</key>
 	<dict>
 		<key>221025C2-26B2-4105-B171-A62E18219FBD</key>
@@ -46,7 +46,7 @@
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>keyword</key>
-				<string>{var:keyword}</string>
+				<string>{var:search_keyword}</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -138,19 +138,13 @@ function run(argv) {
 		</dict>
 	</array>
 	<key>readme</key>
-	<string># Amazon Suggest
+	<string>## Usage
 
-Get in-line suggestions to your Amazon searches.
+Get in-line suggestions from Amazon’s website via the Search Keyword (default: `amazon`). Press &lt;kbd&gt;↩&lt;/kbd&gt; to open the search results page in the default web browser.
 
-## Usage
+![Amazon search for Streamdeck](images/about/amazon-suggest-streamdeck.png)
 
-Use the keyword (default "amazon") to get in-line suggestions from Amazon's website. Press Return to launch the website to the relevant search results page.
-
-![Amazon search for Streamdeck](amazon-suggest-streamdeck.png)
-
-## Configuration
-
-The workflow uses your general Alfred location to return the most relevant Amazon store. Go to Alfred's General preferences to set your location.</string>
+To search a specific Amazon store, set your location in Alfred’s General preferences.</string>
 	<key>uidata</key>
 	<dict>
 		<key>21ACD77C-F177-4D29-9560-8D7461EC6453</key>
@@ -182,25 +176,25 @@ The workflow uses your general Alfred location to return the most relevant Amazo
 				<key>placeholder</key>
 				<string></string>
 				<key>required</key>
-				<true/>
+				<false/>
 				<key>trim</key>
 				<true/>
 			</dict>
 			<key>description</key>
-			<string>Set the keyword you want to use to trigger the workflow in Alfred</string>
+			<string></string>
 			<key>label</key>
-			<string>Keyword</string>
+			<string>Search Keyword</string>
 			<key>type</key>
 			<string>textfield</string>
 			<key>variable</key>
-			<string>keyword</string>
+			<string>search_keyword</string>
 		</dict>
 	</array>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>2022.1</string>
+	<string>2022.2</string>
 	<key>webaddress</key>
-	<string>https://www.alfredapp.com/</string>
+	<string>https://github.com/alfredapp/amazon-suggest-workflow/</string>
 </dict>
 </plist>

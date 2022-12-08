@@ -1,15 +1,13 @@
-# Amazon Suggest
+# <img src='Workflow/icon.png' width='45' align='center' alt='icon'> Amazon Suggest Alfred Workflow
 
-Get in-line suggestions to your Amazon searches.
+Get in-line Amazon search suggestions
 
-<a href='https://github.com/alfredapp/amazon-suggest/releases/latest/download/Amazon.Suggest.alfredworkflow'>⤓ Download Workflow</a>
+<a href='https://github.com/alfredapp/amazon-suggest-workflow/releases/latest/download/Amazon.Suggest.alfredworkflow'>⤓ Download Workflow</a>
 
 ## Usage
 
-Use the keyword (default "amazon") to get in-line suggestions from Amazon's website. Press Return to launch the website to the relevant search results page.
+Get in-line suggestions from Amazon’s website via the Search Keyword (default: `amazon`). Press <kbd>⏎</kbd> to open the search results page in the default web browser.
 
-![Amazon Search for Streamdeck](/workflow/amazon-suggest-streamdeck.png)
+![Amazon search for Streamdeck](Workflow/images/about/amazon-suggest-streamdeck.png)
 
-## Configuration
-
-The workflow uses your general Alfred location to return the most relevant Amazon store. Go to Alfred's General preferences to set your location.
+To search a specific Amazon store, set your location in Alfred’s General preferences.
