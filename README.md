@@ -2,7 +2,7 @@
 
 Get in-line Amazon search suggestions
 
-<a href='https://github.com/alfredapp/amazon-suggest-workflow/releases/latest/download/Amazon.Suggest.alfredworkflow'>⤓ Download Workflow</a>
+[⤓ Install From the Alfred Gallery](https://alfred.app/workflows/alfredapp/amazon-suggest/)
 
 ## Usage
 
