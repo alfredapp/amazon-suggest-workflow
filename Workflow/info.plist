@@ -140,7 +140,7 @@ function run(argv) {
 	<key>readme</key>
 	<string>## Usage
 
-Get in-line suggestions from Amazon’s website via the Search Keyword (default: `amazon`). Press &lt;kbd&gt;↩&lt;/kbd&gt; to open the search results page in the default web browser.
+Get in-line suggestions from Amazon’s website via the `amazon` keyword. Press &lt;kbd&gt;↩&lt;/kbd&gt; to open the search results page in the default web browser.
 
 ![Amazon search for Streamdeck](images/about/amazon-suggest-streamdeck.png)
 
@@ -190,10 +190,8 @@ To search a specific Amazon store, set your location in Alfred’s General prefe
 			<string>search_keyword</string>
 		</dict>
 	</array>
-	<key>variablesdontexport</key>
-	<array/>
 	<key>version</key>
-	<string>2022.2</string>
+	<string>2023.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/alfredapp/amazon-suggest-workflow/</string>
 </dict>
