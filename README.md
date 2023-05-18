@@ -10,4 +10,4 @@ Get in-line suggestions from Amazon’s website via the `amazon` keyword. Press 
 
 ![Amazon search for Streamdeck](Workflow/images/about/amazon-suggest-streamdeck.png)
 
-To search a specific Amazon store, set your location in Alfred’s General preferences.
+Set a specific Amazon store to search in the [Workflow’s Configuration](https://www.alfredapp.com/help/workflows/user-configuration/).
