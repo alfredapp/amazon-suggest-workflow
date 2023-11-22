@@ -195,7 +195,7 @@ function run(argv) {
 
 Get in-line suggestions from Amazon’s website via the `amazon` keyword. Press &lt;kbd&gt;↩&lt;/kbd&gt; to open the search results page in the default web browser.
 
-![Amazon search for Streamdeck](images/about/amazon-suggest-streamdeck.png)
+![Amazon search for Streamdeck](images/about/amazon-suggest.png)
 
 Set a specific Amazon store to search in the [Workflow’s Configuration](https://www.alfredapp.com/help/workflows/user-configuration/).</string>
 	<key>uidata</key>
