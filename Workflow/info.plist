@@ -346,7 +346,7 @@ Set a specific Amazon store to search in the [Workflow’s Configuration](https:
 		</dict>
 	</array>
 	<key>version</key>
-	<string>2023.4</string>
+	<string>2023.5</string>
 	<key>webaddress</key>
 	<string>https://github.com/alfredapp/amazon-suggest-workflow/</string>
 </dict>
